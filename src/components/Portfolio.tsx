@@ -63,7 +63,7 @@ const Portfolio = () => {
               <Eye className="w-4 h-4" />
               Selected Work
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
               Projects that <span className="text-gradient-arctic">define</span> my{" "}
               <span className="text-gradient-aurora">journey</span>
             </h2>
@@ -73,7 +73,7 @@ const Portfolio = () => {
           </div>
 
           {/* Portfolio Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-8">
             {projects.map((project, index) => (
               <div
                 key={project.title}

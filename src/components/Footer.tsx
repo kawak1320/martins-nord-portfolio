@@ -27,7 +27,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 lg:px-6">
         <div className="max-w-6xl mx-auto">
           {/* Main Footer Content */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-8 mb-12">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-6 gap-8 mb-12">
             {/* Brand Column */}
             <div className="lg:col-span-2">
               <div className="flex items-center gap-2 mb-4">
@@ -69,7 +69,7 @@ const Footer = () => {
 
           {/* Bottom Bar */}
           <div className="border-t border-polar-night-2 pt-8">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
               <div className="text-sm text-snow-storm-0">
                 © {currentYear} Martín Pavesio. All rights reserved.
               </div>

@@ -41,7 +41,7 @@ const Skills = () => {
               <Zap className="w-4 h-4" />
               Core Expertise
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
               Versatile <span className="text-gradient-arctic">skill set</span> for{" "}
               <span className="text-gradient-aurora">modern challenges</span>
             </h2>
@@ -51,7 +51,7 @@ const Skills = () => {
           </div>
 
           {/* Main Skill Categories */}
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mb-16">
             {skillCategories.map((category, index) => {
               const IconComponent = category.icon;
               return (

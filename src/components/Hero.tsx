@@ -28,7 +28,7 @@ const Hero = () => {
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
             <span className="text-gradient-arctic">Creating</span>
             <br />
             <span className="text-foreground">Digital</span>{" "}
@@ -36,16 +36,16 @@ const Hero = () => {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
             Graphic Designer, DevOps Specialist & Build Engineer crafting beautiful user experiences and robust infrastructure solutions.
           </p>
 
           {/* Specialties */}
-          <div className="flex flex-wrap justify-center gap-4 mb-12">
+          <div className="flex flex-wrap justify-center gap-3 sm:gap-4 mb-12">
             {["Visual Design", "Infrastructure", "CI/CD", "Automation"].map((skill, index) => (
               <span
                 key={skill}
-                className="px-4 py-2 bg-card/60 backdrop-blur-sm rounded-lg text-sm border border-border shadow-soft"
+                className="px-3 sm:px-4 py-2 bg-card/60 backdrop-blur-sm rounded-lg text-xs sm:text-sm border border-border shadow-soft"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 {skill}

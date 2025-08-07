@@ -35,16 +35,16 @@ const Contact = () => {
               <Coffee className="w-4 h-4" />
               Let's Connect
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
               Ready to <span className="text-gradient-arctic">collaborate</span>?
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto">
               Whether you need stunning visuals, robust infrastructure, or seamless automation, 
               let's discuss how we can bring your vision to life.
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12">
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
             {/* Contact Information */}
             <div className="space-y-8">
               <div>
@@ -94,8 +94,8 @@ const Contact = () => {
             <div className="bg-background p-8 rounded-2xl shadow-soft border border-border">
               <h3 className="text-xl font-semibold mb-6">Send a message</h3>
               
-              <form className="space-y-6">
-                <div className="grid md:grid-cols-2 gap-4">
+              <form className="space-y-4 sm:space-y-6">
+                <div className="grid sm:grid-cols-2 gap-4">
                   <div>
                     <label className="text-sm font-medium mb-2 block">Name</label>
                     <Input placeholder="Your name" />
