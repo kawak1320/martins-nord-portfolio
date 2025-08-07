@@ -14,7 +14,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-lg border-b border-border">
+    <header className="fixed top-0 w-full z-50 bg-background/95 backdrop-blur-md border-b border-border/50">
       <div className="container mx-auto px-4 lg:px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}

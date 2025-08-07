@@ -8,9 +8,9 @@ All colors MUST be HSL based on Nord Color Palette.
 
 @layer base {
   :root {
-    /* Nord Polar Night - Base colors */
-    --background: 220 16% 96%; /* Snow Storm #eceff4 */
-    --foreground: 220 16% 22%; /* Polar Night #2e3440 */
+    /* Nord Snow Storm - Light theme base */
+    --background: 220 16% 96%; /* #eceff4 */
+    --foreground: 220 16% 22%; /* #2e3440 */
 
     --card: 218 27% 94%; /* Snow Storm #e5e9f0 */
     --card-foreground: 220 16% 22%;
@@ -94,9 +94,9 @@ All colors MUST be HSL based on Nord Color Palette.
   }
 
   .dark {
-    /* Dark mode with Polar Night dominance */
-    --background: 220 16% 22%; /* Polar Night #2e3440 */
-    --foreground: 220 16% 96%; /* Snow Storm #eceff4 */
+    /* Nord Polar Night - Dark theme base */
+    --background: 220 16% 22%; /* #2e3440 */
+    --foreground: 218 27% 92%; /* #e5e9f0 */
 
     --card: 222 16% 28%; /* Polar Night #3b4252 */
     --card-foreground: 220 16% 96%;

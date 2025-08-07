@@ -37,7 +37,7 @@ const Skills = () => {
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 bg-background px-4 py-2 rounded-full text-sm text-muted-foreground mb-4">
+            <div className="inline-flex items-center gap-2 bg-background/80 backdrop-blur-sm px-4 py-2 rounded-full text-sm text-muted-foreground mb-4 border border-border/50">
               <Zap className="w-4 h-4" />
               Core Expertise
             </div>
