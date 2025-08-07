@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ['Inter', 'system-ui', 'sans-serif'],
+				mono: ['JetBrains Mono', 'Fira Code', 'monospace'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,7 +65,32 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Nord Color Palette
+				'polar-night': {
+					0: 'hsl(var(--polar-night-0))',
+					1: 'hsl(var(--polar-night-1))',
+					2: 'hsl(var(--polar-night-2))',
+					3: 'hsl(var(--polar-night-3))',
+				},
+				'snow-storm': {
+					0: 'hsl(var(--snow-storm-0))',
+					1: 'hsl(var(--snow-storm-1))',
+					2: 'hsl(var(--snow-storm-2))',
+				},
+				'frost': {
+					0: 'hsl(var(--frost-0))',
+					1: 'hsl(var(--frost-1))',
+					2: 'hsl(var(--frost-2))',
+					3: 'hsl(var(--frost-3))',
+				},
+				'aurora': {
+					red: 'hsl(var(--aurora-red))',
+					orange: 'hsl(var(--aurora-orange))',
+					yellow: 'hsl(var(--aurora-yellow))',
+					green: 'hsl(var(--aurora-green))',
+					purple: 'hsl(var(--aurora-purple))',
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -88,7 +117,10 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 6s ease-in-out infinite',
+				'aurora': 'aurora 8s ease-in-out infinite',
+				'mountain-glow': 'mountain-glow 4s ease-in-out infinite',
 			}
 		}
 	},
